@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>TikTackToe</title>
+</head>
+<body>
+    <div class="headercontainer">
+    <h1>TickTackToe</h1>
+    </br>
+    <h2 id='winner'></h2>
+    </div>
+    <img id="ximage" src="https://1.bp.blogspot.com/-lyELSi3oPWc/Ux3UlhpiAWI/AAAAAAAAEGI/VLvmMCW7aco/s1600/playO.png" width="100" height="100">
+    <img id="oimage" src="https://2.bp.blogspot.com/-44FEkFGb5h8/Ux3Ul5ly3LI/AAAAAAAAEGU/jl4_ktKNJp0/s1600/playX.png" width="100" height="100">
+    <div class="container">
+    <div class="game">
+        <div class="item" id="0"></div>
+        <div class="item" id="1"></div>
+        <div class="item" id="2"></div>
+        <div class="item" id="3"></div>
+        <div class="item" id="4"></div>
+        <div class="item" id="5"></div>
+        <div class="item" id="6"></div>
+        <div class="item" id="7"></div>
+        <div class="item" id="8"></div>
+    </div>
+</div>
+<br>
+</br>
+<div id="nameinput"></div>
+<div class="buttoncontainer">
+<button class="button" id="startbtn" disabled="true" onclick="startGame();">Start</button>
+<button class="button" id="single" onclick="clickbtn(this.id);">single</button>
+<button class="button" id="multiple" >multiple</button>
+</div>
+</body>
+</html>
